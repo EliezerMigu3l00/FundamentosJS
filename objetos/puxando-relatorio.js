@@ -29,5 +29,12 @@ cliente.depositar(156.98)
 let relatorio = "";
 
 for (let info in cliente) {
-    relatorio += 
+    if(typeof cliente[info] === "object" || typeof cliente [info] === "function"){
+        continue
+    } else {
+        relatorio += `2
+         ${info} : ${cliente[info]}`
+    }
 }
+
+console.log(relatorio)
