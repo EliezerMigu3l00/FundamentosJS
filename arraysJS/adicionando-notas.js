@@ -1,8 +1,0 @@
-const notas = [10, 6]
-
-notas.push(7)
-notas.push(8)
-
-let medias = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
-
-console.log(medias);
