@@ -13,3 +13,9 @@ const exibeNomeNota = (nomeDoAluno) => {
 }
 
 console.log(exibeNomeNota("Marcelo"))
+console.log(exibeNomeNota("Ana"))
+console.log(exibeNomeNota("João"))
+console.log(exibeNomeNota("Junior"))
+
+// .includes é um metodo usado para verificar se algum determinado tipo de dado esta incluido na array que vc esta varrendo.
+// .indexOf retorna o indice que determidado dado dentro de uma array esta.
