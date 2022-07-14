@@ -1,4 +1,4 @@
-// Estrutura de um dado tipo objeto 
+// Estrutura de um dado tipo objeto que consiste em pares de chaves e valores
 
 const cliente = {
     nome: "Eliezer",

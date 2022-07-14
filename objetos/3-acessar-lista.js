@@ -10,5 +10,3 @@ const chaves = ["nome", "idade", "email", "cpf"]
 //console.log(cliente[chaves[0]])
 
 chaves.forEach(info => console.log(cliente[info]))
-
-
