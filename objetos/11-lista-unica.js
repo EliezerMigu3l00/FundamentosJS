@@ -17,7 +17,7 @@ const clientes = [{
             dataDeNascimento: '03/03/2012',
         }
     ]},
-        [{
+        {
         nome: 'Maria Joana',
         idade: 34, 
         dataDeNascimento: "28/01/1994",
@@ -29,18 +29,18 @@ const clientes = [{
             {
                 nome: 'Marcos jose',
                 idade: 15,
-                dataDeNascimento: '17/06/2008',
-            },
+                dataDeNascimento: '17/06/2008',},
             {
                 nome: 'Joaquina Maria',
                 idade: 8,
                 dataDeNascimento: '01/11/2015',
-            },
+            }
         ]
-        }]
+        }
     ] 
     
 
     const listaDependentes = [...clientes[0].dependentes, ...clientes[1].dependentes]
     
-    console.log(listaDependentes)
+    console.table(listaDependentes)
+    

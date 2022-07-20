@@ -17,7 +17,7 @@ const cliente = {
             dataDeNascimento: '03/03/2012'
         }
     ],
-    saldo: 100, 
+    saldo: 100,    
     depositar:function(valor){
         this.saldo += valor
     }
