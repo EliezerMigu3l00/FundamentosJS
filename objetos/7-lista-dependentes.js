@@ -5,7 +5,7 @@ const cliente = {
     cpf: "722.348.651-02",
     fone: ["+55 87 99678-2365", "+55 87 99943-7626", "+55 87 99645-3822"]
 }
-
+// O objeto permite que faça a ultilizacao de estruturas de dados dentro dele como a array onde dentro do objeto voce pode usar toda a funcionalidade de uma array dentro do objeto
 cliente.dependentes = [{
     nome:"Sara",
     parentesco: "Filha",

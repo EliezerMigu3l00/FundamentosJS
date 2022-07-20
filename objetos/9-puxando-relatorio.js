@@ -28,6 +28,8 @@ cliente.depositar(156.98)
 
 let relatorio = "";
 
+// Metodo for in é um metodo do JavaScript para objetos.
+
 for (let info in cliente) {
     if(typeof cliente[info] === "object" || typeof cliente [info] === "function"){
         continue
