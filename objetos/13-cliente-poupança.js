@@ -13,9 +13,7 @@ function ClientePoupanca (nome, cpf, email, saldo, saldoPoup) {
     this.saldoPoup = saldoPoup 
 } 
 
-const eli = new ClientePoupanca ("Eli", "456.765.873.02", "elinaoesdras@gmail.com", 100, 1367.45)
-
-console.log(eli)
+const eli = new ClientePoupanca ("Eli", "456.765.873-02", "elinaoesdras@gmail.com", 100, 1367.45)
 
 ClientePoupanca.prototype.depositarPoup = function (valor) {
     this.saldoPoup += valor
