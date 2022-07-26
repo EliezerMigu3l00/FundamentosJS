@@ -18,3 +18,4 @@ class Cliente {
 const eliezer = new Cliente ("Eliezer", "eliezermiguel@email.com", "405.593.695-23", 250)
 
 eliezer.exibirSaldo()
+console.log(eliezer)
